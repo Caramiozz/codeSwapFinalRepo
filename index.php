@@ -71,7 +71,7 @@
         <!-- PHP code taht will store the list of methods available in the database on a dropdown div-->
          <?php
             
-            $conn = mysqli_connect("localhost","root","","group5");
+            $conn = mysqli_connect("us-cdbr-east-05.cleardb.net","bd317668d6ac89","648019f5","heroku_5fe39184ffe2eef");
             //$sql="SELECT * FROM Methods WHERE Name = '".$name."'  ";
                         
             // query the methods table for every entry                
@@ -168,7 +168,7 @@
                 
                 
                 //connect to phpmyadmin
-                $conn = mysqli_connect("localhost","root","","group5");
+                $conn = mysqli_connect("us-cdbr-east-05.cleardb.net","bd317668d6ac89","648019f5","heroku_5fe39184ffe2eef");
                 
                 //query the users table for the entry that the current user entered in the login and password input sections
                 $sqlLogin="SELECT * FROM Users WHERE Username = '$attemptName' ";      
@@ -369,7 +369,7 @@
                  // if someone is logged in
                  if(isset($_SESSION["SessionUsername"])){
                         //query the database by accessing the userfavourites table 
-                        $conn = mysqli_connect("localhost","root","","group5");
+                        $conn = mysqli_connect("us-cdbr-east-05.cleardb.net","bd317668d6ac89","648019f5","heroku_5fe39184ffe2eef");
                         //$sql="SELECT * FROM Methods WHERE Name = '".$name."'  ";
                         
                         $startcurrentusername = $_SESSION["SessionUsername"];
@@ -672,7 +672,7 @@
             $name = $_POST['searchInput'];
             
                 
-            $conn = mysqli_connect("localhost","root","","group5");
+            $conn = mysqli_connect("us-cdbr-east-05.cleardb.net","bd317668d6ac89","648019f5","heroku_5fe39184ffe2eef");
             //$sql="SELECT * FROM Methods WHERE Name = '".$name."'  ";
             
             $sql="SELECT * FROM Methods WHERE Name = '$name' ";
@@ -753,7 +753,7 @@
                     $name = $_POST['searchInput'];
                     
 
-                    $conn = mysqli_connect("localhost","root","","group5");
+                    $conn = mysqli_connect("us-cdbr-east-05.cleardb.net","bd317668d6ac89","648019f5","heroku_5fe39184ffe2eef");
 
 
                     $sql="SELECT * FROM methodimages WHERE ImageMethod = '$name' ";
