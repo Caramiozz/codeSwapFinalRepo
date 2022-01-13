@@ -148,7 +148,7 @@
                       
                         
                     //connect to sql
-                    $conn = mysqli_connect("localhost","root","","group5");
+                    $conn = mysqli_connect("us-cdbr-east-05.cleardb.net","bd317668d6ac89","648019f5","heroku_5fe39184ffe2eef");
                     //$sql="SELECT * FROM Methods WHERE Name = '".$name."'  ";
                     
                     //query the translatemethods table with the methodname from the input
