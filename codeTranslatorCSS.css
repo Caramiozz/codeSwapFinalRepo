@@ -1,0 +1,722 @@
+
+html,body
+{
+
+    font-family: "Calibre", Helvetica, Arial, sans-serif;
+       
+    background-color: #36393F;
+    
+   
+
+}
+
+/* testing resize */ 
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1800px;
+    height:900px;
+}
+
+
+#translatorMainDiv
+{
+    
+   height:100%;
+   width:100%;
+   background-color: #36393F;
+    
+   display:flex;
+   flex-direction:column;
+    
+   align-items:center;
+   justify-content:space-around;
+    
+    
+}
+#translatorHeader
+{
+    
+   background-color:#36393F;
+    
+   height:25%;
+   width:60%;
+   
+   
+   display:flex;
+    
+   align-items:flex-start;
+   justify-content:center;
+   
+}
+#mainScreenTab
+{
+    
+    width:200px;
+    
+    background-color: orange;
+    color: black;
+    font-family: "Calibre", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid #d6d1d5;
+    padding: 10px;
+    transition: 0.5s;
+    
+}
+#submitTemplateTab
+{
+    width:200px;
+    
+    background-color: orange;
+    color: black;
+    font-family: "Calibre", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid #d6d1d5;
+    padding: 10px;
+    transition: 0.5s;
+    
+}
+
+
+#userInputDiv
+{
+  
+   border:3px solid;
+   border-color:#40d9ac;
+   border-radius: 5px;
+    
+
+   background-color:lightgrey;
+    
+   height:15%;
+   width:60%;
+    
+   display:flex;
+   
+
+    
+
+    
+    
+}
+#userInputFormInputDiv
+{
+    
+    
+    display:flex;
+    
+    flex-direction:row;
+    
+     
+    justify-content:space-between;
+    align-items:center;
+    
+}
+#languageTranslateFrom
+{
+    font-size:25px;
+    
+            background-color:#eeecee;
+             display: block;
+                     
+             
+             padding: 14px 40px;   
+             outline: none;  
+             color: black; 
+             
+             border: 5px solid #9d9099;
+             border-radius: 3px;
+             
+             height:25%;
+
+             
+             
+             text-align: center;
+}
+#languageTranslateTo
+{
+    font-size:25px;
+    
+            background-color:#eeecee;
+             display: block;
+             width: 25%;            
+            
+             padding: 14px 40px;   
+             outline: none;  
+             color: black;  
+           
+             border: 5px solid #9d9099;
+             border-radius: 3px;
+             
+             text-align: center;
+}
+
+#translateDiagramDiv
+{
+    
+   display:flex;
+   flex-direction:row;
+   
+   height:80%;
+   width:90%;
+   
+   align-items:center;
+   justify-content:space-between; 
+  
+ 
+}
+
+#translatorLeft
+{
+    max-height:420px;
+    
+    border:5px solid;
+    border-color:#40d9ac;
+    border-radius: 5px;
+    
+
+    background-color:lightgrey;
+    
+    height:80%;
+    width:45%;
+    
+    display:flex;
+    
+    justify-content:center;
+    align-items:center;
+    
+    
+}
+#translatorRight
+{
+    max-height:420px;
+    
+    border:5px solid;
+    border-color:#40d9ac;
+    border-radius: 5px;
+   
+    
+    background-color:lightgrey;
+    
+    height:80%;
+    width:45%;
+    
+    display:flex;
+    
+    align-items:center; 
+    justify-content:center;
+    
+}
+#translatorRightContextDiv
+{
+    border:3px solid;
+    border-color:darkgray;
+    border-radius: 5px;
+    
+    background-color:white;
+    
+    
+    display:flex;
+    
+    align-items:center; 
+    justify-content:center;
+    
+    height:95%;
+    width:95%;
+    
+}
+
+#resultText
+{
+    
+   
+   
+   font-size:25px;
+   font-weight:bold;
+   
+   display:block;
+   
+   height:95%;
+   width:95%;
+   
+   justify-content:center;
+   align-items:center;
+   
+   
+   
+  
+   
+   overflow-y:scroll;
+   
+    
+    
+    
+}
+/*For for-loop*/
+#functionInputDiv
+{
+    
+    border:3px solid;
+    border-color:darkgray;
+    border-radius: 5px;
+    
+    background-color:white;
+    
+ 
+    display:flex;
+       
+    align-items:center;
+    justify-content:center;
+    
+    
+    height:95%;
+    width:95%;
+       
+}
+/*For switch statement*/
+#functionInputDivSwitch
+{
+    
+    border:3px solid;
+    border-color:darkgray;
+    border-radius: 5px;
+    
+    background-color:white;
+    
+ 
+    display:block;
+    flex-direction:column;
+       
+    align-items:center;
+    justify-content:center;
+    
+    overflow-y:scroll;
+    
+    height:95%;
+    width:95%;
+       
+}
+
+
+
+/* CSS FOR SPECIFIC FUNCTIONS IF NEEDED */
+#switchCasesDiv
+{
+  
+    margin-top:30px;
+    display:flex;
+    
+    align-items:center; 
+    justify-content:flex-start;
+ 
+    flex-direction:column; 
+}
+#switchCasePre
+{
+    
+    font-family: "Calibre", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    
+    
+    display:flex;
+    justify-content: flex-start;
+
+    
+    
+}
+#userEntryDivSwitch
+{
+
+    
+    margin-top:50px;
+    
+    display:flex;
+    
+    align-items:center; 
+    justify-content:center;
+    
+    flex-direction:row; 
+    
+    
+}
+
+#userEntryDivPrint
+{
+    
+    font-size:22px;
+    
+    margin-top:50px;
+    
+    display:flex;
+    
+    align-items:center; 
+    justify-content:center;
+    
+    flex-direction:row; 
+    
+    
+}
+
+
+
+
+#variableEntryInput
+{
+    margin-top:15px;
+    margin-left:10px;
+    
+    width:20px;
+    
+}
+
+/* User variable input inside related*/
+#userInputForm
+{
+    
+    
+    height:100%;
+    width:100%;
+    
+    
+   
+    
+    
+   
+    
+}
+#translateButtonInFormDiv
+{
+    margin-top :10px;
+    margin-bottom: 10px;
+    
+    display:flex;
+    
+    
+    
+    justify-content:center;
+    align-items:center;
+    
+}
+#translateButtonOutsideDiv
+{
+    margin-top:20px;
+    
+    display:flex;
+    
+    width:80%;
+    height:10%;
+    
+    flex-direction:column;
+    
+    
+    justify-content:center;
+    align-items:center;
+   
+}
+#compilerLinkText
+{
+    color:orange;
+    margin-top:5px;
+    font-weight:bold;
+    font-size:25px;
+}
+#translateToLanguageButton
+{
+    
+    width:50%;
+    
+    background-color: #2ecc71;
+    color: white;
+    font-family: "Calibre", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 3px solid #1e8549;
+    padding: 10px 10px;
+    transition: 0.5s;
+    
+    
+}
+#translateToLanguageButton:hover
+{  
+    background-color: #1e8549;   
+    
+    cursor: pointer; 
+}
+
+
+
+#userInputFormInputDiv
+{
+    
+    display:flex;
+    
+    justify-content:center;
+    align-items:center;
+    
+}
+#methodName
+{
+    
+    font-size:25px;
+             
+    overflow:hidden;
+            
+          
+    background-color:#eeecee;
+    display: block;
+    height:25%;
+    width: 25%;   
+    text-align: center; 
+    border: 5px solid #9d9099;
+    border-radius: 3px;
+    padding: 14px 40px;   
+    outline: none;  
+    color: black;  
+  
+    
+    
+}
+#translationArrowRight
+{
+    
+    width:50px;
+    height:50px;
+    
+}
+#translateButton
+{
+    
+    
+    width:50%; 
+    
+    height:100%;
+    background-color: #2ecc71;
+    color: white;
+    font-family: "Calibre", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 3px solid #1e8549;
+    padding: 10px 10px;
+    transition: 0.5s;
+}
+#translateButton:hover
+{  
+    background-color: #1e8549;   
+    color: #40d9ac;
+    cursor: pointer; 
+}
+
+#copyToClipboardButton
+{
+    
+    max-width:70px;
+    max-height:70px;
+    
+    position:absolute;
+    
+    bottom:10%;
+    right:13%;
+    
+}
+#copyToClipboardButton:hover
+{  
+    
+    max-width:100px;
+    max-height:100px;
+    
+    cursor: pointer; 
+}
+#copyToClipboardButton:focus
+{  
+    
+    max-width:120px;
+    max-height:120px;
+    
+    background-color:grey;
+    
+    border-radius: 5px;
+    border: 3px solid #1e8549;
+    
+    cursor: pointer; 
+}
+
+
+/*HOVER TUTORIAL RELATED*/
+
+
+
+#showTutorial
+{
+    
+    margin-top : 5px;
+    
+    font-size:20px;
+  
+                      
+    background-color:#40d9ac;        
+    width: 40%;                
+    border: 2px solid #40d9ac;
+    border-radius: 5px;
+                        
+    text-align:center;
+    color: black; 
+    
+}
+#showTutorial:hover
+{  
+    background-color: #1e8549;   
+    color: black;
+    cursor: pointer; 
+}
+
+#hoverTutorial
+{
+   
+    background-color:#36393F;
+    border: 8px solid darkgray;
+    border-radius: 5px;
+    
+    position:absolute;
+    
+    
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    
+    top:17%;
+    width:50%;
+    
+    height:83%;
+    width:50%;
+        
+    
+    display: none;
+    
+}
+/*hover tutorial inside related*/
+#tutorialDiv
+{
+    width:30%;
+    margin-bottom:20px;
+}
+#tutorialHeaderDiv
+{
+        
+    height:20%;
+    
+  
+    
+}
+#tutorialHeaderP
+{
+    color:white;
+    font-weight:bold;
+    font-size: 25px;
+    
+}
+#tutorialHeaderDescP
+{
+    color:white;
+    font-size:20px;    
+}
+#tutorialTitleDiv
+{
+    background-color:#d6d1d5;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    width:90%;
+    height:20%;
+}
+#tutorialDescriptionDiv
+{
+    background-color:#d6d1d5;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    width:90%;
+    height:20%;
+}
+#tutorialDocumentationDiv
+{
+    background-color:#d6d1d5;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    width:90%;
+    height:20%;
+}
+#tutorialImageSubmissionDiv
+{
+    background-color:#d6d1d5;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    width:90%;
+    height:20%;
+    
+    
+}
+#tutorialSubmissionDiv
+{
+    
+    background-color:#d6d1d5;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    width:90%;
+    height:20%;
+}
+#closeTutorialButton
+{
+    
+    border: 2px solid grey;
+    border-radius: 5px;
+    
+    margin-top:5px;
+    
+    max-width:30px;
+    max-height:30px;
+    
+    background-color:white;
+    color:white;
+    
+}
+#closeTutorialButton:hover
+{  
+    background-color: #1e8549;   
+    color: black;
+    cursor: pointer; 
+}
+
+
+#tutorialShowButton
+{
+    
+    
+    width:100%; 
+    
+    margin-bottom:5px;
+    
+    height:100%;
+    background-color: #2ecc71;
+    color: white;
+    font-family: "Calibre", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 3px solid #1e8549;
+    padding: 10px 10px;
+    transition: 0.5s;
+}
+#tutorialShowButton:hover
+{  
+    background-color: #1e8549;   
+    color: #40d9ac;
+    cursor: pointer; 
+}
