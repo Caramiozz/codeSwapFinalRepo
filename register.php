@@ -94,7 +94,7 @@ session_start();
         
         
         //connect to sql
-        $conn = mysqli_connect("localhost","root","","group5");
+        $conn = mysqli_connect("us-cdbr-east-05.cleardb.net","bd317668d6ac89","648019f5","heroku_5fe39184ffe2eef");
         
         // if all the required fields are set
         if(isset($_POST['username']) && isset($_POST["password"]) && isset($_POST["passwordRepeat"]) && isset($_POST["e-mail"]))
